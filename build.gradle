@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '1.16.5-1.0'
+version = '1.18.2-1.0'
 group = 'com.lmatheson.minecraft.tutorialmod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'tutorialmod'
 
@@ -40,6 +40,7 @@ minecraft {
     // Use non-default mappings at your own risk. They may not always work.
     // Simply re-run your setup task after changing the mappings to update your workspace.
     mappings channel: 'official', version: '1.18.2'
+    //mappings channel: 'snapshot', version:
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
