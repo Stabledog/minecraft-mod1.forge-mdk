@@ -1,0 +1,6 @@
+bin
+run
+build
+*.launch
+.gradle
+.idea
